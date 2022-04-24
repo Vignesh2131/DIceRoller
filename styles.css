@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jost:ital,wght@0,500;0,700;1,600&family=Tapestry&family=VT323&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}hr{
+  margin:1rem auto 5rem auto;
+  width:60%;
+  
+}
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+ font-family: 'VT323',monospace;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+h2{
+  font-family: 'Bubblegum',sans-serif;
+  color: #F7F7F7;
+  font-size:3rem;
+}
+p {
+  font-size: 2rem;
+  color:#CEE5D0;
+  font-family: 'Tapestry';
+  text-decoration: underline;
+}
+h3{
+  font-family: 'Jost', cursive;
+  font-size: 5rem;
+  text-shadow:2px 2px 1px white ;
+  color:#4ECCA3;
+  padding:2rem 5rem;
+  animation-name: celebration;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes celebration{
+  0%{
+   color: #7579E7;
+   
+  }
+  25%{
+   color:#9AB3F5;
+   
+  }
+  50%{
+   color:#A3D8F4;
+  }
+  75%{
+   color:#B9FFFC;
+  }
+  100%{
+    color:#D2F5E3;
+  }
+}
+
+
+img {
+  width: 60%;
+}
+
+footer {
+  margin-top: 5%;
+  color:white;
+  text-align: center;
+  font-family: 'Jost', cursive;
+  font-size: 1.4rem;
+
+}
+
+/* For mobile */
+@media(max-width:640px){
+  h1{
+    font-size:5rem;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  .inner{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+}
